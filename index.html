@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Evergreen & Co. creates calm, beautiful gardens with sustainable planting, seasonal care, and landscape design."
+    />
+    <title>Evergreen & Co. | Garden Design & Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Evergreen & Co. home">
+          <span class="brand-mark">E</span>
+          <span>Evergreen & Co.</span>
+        </a>
+        <div class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Sustainable gardens, thoughtfully tended</p>
+          <h1 id="hero-title">
+            Outdoor spaces that feel alive in every season.
+          </h1>
+          <p class="hero-text">
+            We design, plant, and care for beautiful gardens that are gentle on
+            the planet and effortless to enjoy.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Book a consult</a>
+            <a class="button button-secondary" href="#services"
+              >Explore services</a
+            >
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Garden preview">
+          <div class="hero-image"></div>
+          <div class="floating-note">
+            <span>Spring openings available</span>
+            <strong>Design visits from $95</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro" aria-label="Company highlights">
+        <article>
+          <strong>12+</strong>
+          <span>years crafting gardens</span>
+        </article>
+        <article>
+          <strong>240</strong>
+          <span>native plant palettes installed</span>
+        </article>
+        <article>
+          <strong>98%</strong>
+          <span>clients keep us for seasonal care</span>
+        </article>
+      </section>
+
+      <section
+        id="services"
+        class="section services"
+        aria-labelledby="services-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">What we do</p>
+          <h2 id="services-title">Garden services rooted in care.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="icon">01</span>
+            <h3>Landscape Design</h3>
+            <p>
+              Thoughtful plans for patios, borders, edible beds, shade gardens,
+              and pollinator-friendly planting.
+            </p>
+          </article>
+          <article class="service-card featured-card">
+            <span class="icon">02</span>
+            <h3>Seasonal Maintenance</h3>
+            <p>
+              Pruning, mulching, soil care, planting refreshes, and tidy-ups
+              that keep your garden thriving all year.
+            </p>
+          </article>
+          <article class="service-card">
+            <span class="icon">03</span>
+            <h3>Planting & Soil Health</h3>
+            <p>
+              Climate-smart plant selections and organic soil building for
+              gardens that grow stronger over time.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section split" aria-labelledby="work-title">
+        <div class="work-panel"></div>
+        <div class="split-copy">
+          <p class="eyebrow">Recent project</p>
+          <h2 id="work-title">
+            A quiet courtyard transformed into a lush retreat.
+          </h2>
+          <p>
+            For a compact city garden, we layered soft grasses, herbs, climbing
+            jasmine, and handmade stone paths to create depth without clutter.
+          </p>
+          <ul class="check-list">
+            <li>Drought-tolerant planting plan</li>
+            <li>Low-maintenance irrigation</li>
+            <li>Pollinator-friendly flowers from spring to fall</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="testimonial" aria-label="Customer testimonial">
+        <blockquote>
+          "Evergreen & Co. gave us the garden we always imagined: peaceful,
+          practical, and full of life. Every visit feels like a small reset."
+        </blockquote>
+        <p>Marina L., garden design client</p>
+      </section>
+
+      <section
+        id="contact"
+        class="section contact"
+        aria-labelledby="contact-title"
+      >
+        <div>
+          <p class="eyebrow">Start growing</p>
+          <h2 id="contact-title">Tell us about your garden.</h2>
+          <p>
+            Share a few details and we'll recommend the best next step, from a
+            one-time design visit to ongoing seasonal care.
+          </p>
+        </div>
+        <form
+          class="contact-form"
+          action="mailto:hello@evergreen.example"
+          method="post"
+          enctype="text/plain"
+        >
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </label>
+          <label>
+            Garden goals
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Tell us what you'd love to grow"
+              required
+            ></textarea>
+          </label>
+          <button class="button button-primary" type="submit">
+            Send inquiry
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Evergreen & Co. Garden Design</p>
+      <a href="mailto:hello@evergreen.example">hello@evergreen.example</a>
+    </footer>
+  </body>
+</html>
